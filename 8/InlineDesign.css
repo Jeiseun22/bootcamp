@@ -1,0 +1,18 @@
+
+h1 { color:blueviolet
+ }
+p{
+    color:aquamarine
+}
+#par2{
+    color:pink
+}
+#par3{
+    color:red
+}
+.right {
+    text-align:right
+}
+par1.right{
+    text-align:center
+}

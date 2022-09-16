@@ -1,0 +1,11 @@
+CD ..   						   Back to previous Folder
+CD                                           Change Drive
+Type nul>Test.txt                            Empty file
+Echo test string>test.txt                    Creating Txt with " test string on it"
+mkdir Day 3						   Creating folder with "Day 3" Name
+rmdir Day 3						   Deleting folder name "Day 3"
+C:\Users\jeise\Desktop\wowo>dir>t\file.txt    Creating Directory file list in text
+copy "Day 3.txt" "Day 3_2"			   copy and rename file
+move Day 3 Day4					   moving the file to the folder Day 4
+ipconfig > Netinfo.txt				   Creating txt file with the info list of ipconfig results
+dir > ping.txt					   Creates information of the the test results of ping test

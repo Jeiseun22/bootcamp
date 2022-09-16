@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My first HTML Page</title>
+	</head>
+<body>
+	<h1>About ME</h1>
+	<p> Hi! I'm Jason and you can call me "jay" or jason anything that that can make you at ease. A technical support representative and a graduate of computer Engineering <</p>
+	<h2> My favorite songs</h2>
+	<ul>
+		<li>Nothing Like you</li>
+<li>Obsessed </li>
+<li>Westlife songs</li>
+<ul>
+<h1>Send me a message!</h1>
+<form action=" ">
+		<label>Email: </label><input type='text' value = ' ' placeholder='Enter your email' />
+	<div>
+		<textarea> Message</textarea>
+		<input type='submit' value= ' Send ' />
+	</div>
+	</form>
+</body>
+</html>

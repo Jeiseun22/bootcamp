@@ -1,0 +1,147 @@
+body{
+    background-image:url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+    background-size:100%;
+font-family: 'Tahoma';
+}
+.table{
+    background-color: rgb(35, 179, 236);
+    padding: 0%;
+    font-size:large;
+    display: block;
+}
+
+
+  li
+  {   
+    display: inline;
+    width: auto;
+    padding: 0 7%;
+
+      }
+
+     li:hover    {
+        background-color:rgb(17, 17, 158);
+    }
+
+    .img1{
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .img2, .p2{
+        width: 300px; 
+        display: block;
+        margin: auto;
+        justify-content: center;
+        padding: 0 , 10px;
+    }
+    
+    .hd1{
+        color: rgb(70, 130, 180);
+        text-align:center;
+        display: block;
+    }
+    .container{
+        display:flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .p1{
+        text-align:center;
+        display: block;
+    }
+
+    .p2{
+        color: rgb(70, 130, 180); 
+        font-size: 180%; 
+        display: block;
+    }
+    .p3 {
+        color:black; 
+        font-size: 90%;
+        display: block;
+    }
+    .link{
+        font-size: 180%; 
+        text-align: center;
+        color: blue;
+        align-items: center;
+
+     }
+     .link:hover{
+        color:magenta;
+     }
+     .link:visited
+     {color:orange}
+     .link:active{
+        color:lime;
+    }
+    .div2 {
+    color: rgb(70, 130, 180)"
+    }
+    .crosstab{
+        display:flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .img3{
+        float: left; 
+        width: 130px;
+        display: block;
+    }
+    
+    .img4
+    {
+        float:right;
+        width: 130px;
+        display: inline-block;
+    }
+
+    .Min  {
+        padding:10%;
+        text-align: center;
+        margin:5%;
+        border-style:dotted;
+       width: 20;
+    }
+    div.galmain{
+        display: flex;
+        padding-top: 10%;
+        padding-right:5px;
+
+    }
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 20%;
+        padding-left:10% ;
+        display: inline;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 250px;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+    div.div4{
+    margin: 20%;
+    font-size: 70%; 
+    border-radius: 10px;
+    color: rgb(192, 192, 192);
+    width:50%;
+     text-align: center; }

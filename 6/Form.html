@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>Upload Photo</h1>
+    <form>
+      <input type="file" name="fileupload" accept="image/*" /><br />
+      <input type="submit" name="submit" accept="submit" />
+    </form>
+    <h1>
+        <label id="registration"></label>Registration Form</h1>
+    <form>
+      First name
+      <input type="text" name="first_name" placeholder="Ex. name" /><br />
+      Last name <input type="text" name="first_name" /><br />
+      <input
+        id="rangeInput"
+        type="range"
+        min="0"
+        max="200"
+        oninput="amount.value=rangeInput.value"
+      />
+      <input
+        id="amount"
+        type="number"
+        value="100"
+        min="0"
+        max="200"
+        oninput="rangeInput.value=amount.value"
+      />
+    </form>
+    <h2>Birthday</h2>
+    <form>
+      <input type="date" />
+      <input type="color" name="color" value="#f00000" />
+      <input type="range" min="o" max="20" step="1" value="3" />
+    </form>
+    <h1>Registration 2</h1>
+    <form>
+      Username: <input type="username" name="username" /><br />
+      password: <input type="password" name="password" /><br />
+    </form>
+    <h1>Registration 3</h1>
+    <form>
+      Description <br />
+      <textarea
+        rows="5"
+        cols="50"
+        name="description"
+        placeholder="Enter Desciption"
+      ></textarea>
+    </form>
+    <h2>Saved Information</h2>
+    <form>
+      <input type="checkbox" name="html" value="on" />HTML
+      <input type="checkbox" name="css" value="on" />css
+      <input type="checkbox" name="js" disabled />JavaScript
+    </form>
+    <form>
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="Female" value="female" />Female
+    </form>
+    <h1>Registration 4</h1>
+    <form>
+      <select name="dropdown">
+        <option value="html">HTML</option>
+      </select>
+    </form>
+  </body>
+</html>

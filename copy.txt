@@ -1,0 +1,32 @@
+    
+
+
+
+
+
+  .H:hover, .C:hover, .M:hover, .T:hover, .CO:hover    {background-color:aqua;}
+
+body{
+    background-image:url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+padding:0;
+font-family: 'Tahoma';
+}
+
+a{
+        font-size: 180%; 
+        margin-left:20%;
+        margin-top:30%;
+        color: blue;
+
+     }
+     a:hover{
+        color:magenta;
+     }
+     a:visited
+     {color:orange}
+    a:active{
+        color:lime;
+    }
+
+  }
+      tr:nth-child(even) {background-color: #f2f2f2;}

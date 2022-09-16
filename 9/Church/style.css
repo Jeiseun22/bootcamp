@@ -1,0 +1,155 @@
+body{
+    background-image:url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+    background-size:100%;
+font-family: 'Tahoma';
+margin: 0; padding-top:0;
+}
+.table1{
+    width:100%;
+    padding:3px;
+    background-color: rgb(70, 130, 180);
+    color: black;
+    font-size: 150%;
+    margin-top:0;
+    display: inline-block;
+}
+  li
+  {   
+    display: inline;
+    width: auto;
+    padding: 0 80px;
+  
+
+      }
+
+     li:hover    {
+        background-color:rgb(17, 17, 158);
+        border-radius: 50%;
+    }
+    tr:nth-child(even) 
+    {background-color: #f2f2f2;
+        list-style-position: inside
+    }
+
+    div.tablistmain{
+        text-align: center; 
+        padding:20px;
+        font-size:130%;
+        width:40%;
+        border-style:dotted;
+        margin:0 auto; 
+        display: block;
+    }
+    .tablist{
+    margin:auto;
+    font-size: 70%; 
+    display:inline;
+    border-radius: 50%;
+    color: black;
+    width:100%;
+    text-align: center; }
+
+    .t1:hover{
+        color:rgb(248, 206, 129)
+    }
+    div.m{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    div.main{
+   margin-right: auto;
+   margin-left: auto;
+        display:flex;
+        width: 450px;
+        justify-content: center
+    }
+    div.min{
+        text-align: center;
+    }
+    div.huel{
+        padding-top: 30px; 
+        margin-bottom: 150px
+    }
+    div.free{
+        float: right; 
+        display: block; 
+        text-align: left
+    }
+    div.all{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.gal{
+        width: 100%; 
+        margin: auto; 
+        display: block"
+    }
+    div.footer{
+        font-size: 70%;
+        color: rgb(192, 192, 192);
+        text-align: center;
+        margin-top: 350px;
+    }
+    div.imgb{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .savel{
+        color:blue;
+        font-size: 180%;
+    }
+    .savel:hover{
+        color:magenta;
+    }
+    .savel:visited
+    {color:orange}
+    .savel:active{
+       color:lime;
+   }
+    div.fcolor{
+        color: rgb(70, 130, 180);
+         font-size: 180%;
+         padding-bottom:40px;
+    }
+    h1{
+        color: rgb(70, 130, 180);
+    }
+    div.our{
+        padding-bottom: 25px;
+    }
+    .img1{
+        display: inline-block; 
+        width: 400px; 
+        margin-right: 20px
+    }
+.imgb{
+    margin-left: auto;
+    margin-right:60%;
+}
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 200px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .a1, .a2, .a3 , .a4 {
+color: rgb(192, 192, 192);
+    }

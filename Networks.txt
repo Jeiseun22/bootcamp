@@ -1,0 +1,12 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 18FA-41AC
+
+ Directory of C:\Users\jeise\Desktop\Bootcamp\t3
+
+09/02/2022  04:34 PM    <DIR>          .
+09/02/2022  03:40 PM    <DIR>          ..
+09/02/2022  04:34 PM               328 Act 8.rar
+09/02/2022  05:02 PM               179 Facebook.bat
+09/02/2022  05:03 PM                 0 Networks.txt
+               3 File(s)            507 bytes
+               2 Dir(s)  107,747,909,632 bytes free

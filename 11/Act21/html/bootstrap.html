@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-color: rgb(85, 35, 35);
+      }
+    </style>
+    <title>Bootstrap Images</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jei</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#" >about</a>/></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">DAS</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Education</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </div>
+    </nav> -->
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">DAS</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-user"></span> Sign Up</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-envelope"></span> Message</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="bliss.jpg"
+            alt="fried chicken"
+            style="width: 100%"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1>This is some fried chicken.</h1>
+          <p>Very well done and cooked.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="ME"
+            style="width: 50%"
+            class="img-thumbnail"
+          />
+          <div class="caption">
+            <p>Jeiseun</p>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/derxa11-c5dbd41e-4dc7-46fb-baf2-942ca3c868a4.png/v1/fill/w_1280,h_785,strp/kokomi_genshin_impact_portrait_render_by_deg5270_derxa11-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZXJ4YTExLWM1ZGJkNDFlLTRkYzctNDZmYi1iYWYyLTk0MmNhM2M4NjhhNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XEKjfmvYO_8CIsWl0BkhqfmFm8me4aKpLaln_y9MRAY"
+            alt="Fields"
+            style="width: 100%"
+            class="img-thumbnail"
+          />
+          <div class="caption">
+            <p>Beautiful fields of green.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/derxa11-c5dbd41e-4dc7-46fb-baf2-942ca3c868a4.png/v1/fill/w_1280,h_785,strp/kokomi_genshin_impact_portrait_render_by_deg5270_derxa11-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZXJ4YTExLWM1ZGJkNDFlLTRkYzctNDZmYi1iYWYyLTk0MmNhM2M4NjhhNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XEKjfmvYO_8CIsWl0BkhqfmFm8me4aKpLaln_y9MRAY"
+            alt="Fields"
+            style="width: 100%"
+            class="img-thumbnail"
+          />
+          <div class="caption">
+            <p>Beautiful fields of green.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

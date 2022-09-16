@@ -1,0 +1,36 @@
+h1{
+    background-color:yellow
+}
+heading
+{
+    font-size: 500%;
+    background-color: lime;
+    display:none;
+    Display: block;
+}
+div.heading{
+    text-align:center;
+    display:block;
+}
+span.heading{
+    margin:auto;
+    display:block;
+    text-align: right;
+}
+img{
+    display:block;
+    margin:auto;
+    width:50%;
+    z-index:-1;
+}
+a:link, a:visited{
+    position:fixed;
+    background-color:aqua;   
+    text-align:center;
+    top:80%;
+}
+
+a:hover,a:active
+{
+background-color:red;
+}
